@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.resultsGridView = new System.Windows.Forms.DataGridView();
             this.goBtn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.clearBtn = new System.Windows.Forms.Button();
             this.defaultBtn = new System.Windows.Forms.Button();
             this.resultsLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.constraintsGridView)).BeginInit();
@@ -151,14 +151,15 @@
             this.goBtn.UseVisualStyleBackColor = true;
             this.goBtn.Click += new System.EventHandler(this.goBtn_Click);
             // 
-            // button2
+            // clearBtn
             // 
-            this.button2.Location = new System.Drawing.Point(732, 291);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(69, 34);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "CLEAR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.clearBtn.Location = new System.Drawing.Point(732, 291);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(69, 34);
+            this.clearBtn.TabIndex = 11;
+            this.clearBtn.Text = "CLEAR";
+            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // defaultBtn
             // 
@@ -186,7 +187,7 @@
             this.ClientSize = new System.Drawing.Size(824, 697);
             this.Controls.Add(this.resultsLbl);
             this.Controls.Add(this.defaultBtn);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.goBtn);
             this.Controls.Add(this.resultsGridView);
             this.Controls.Add(this.label3);
@@ -224,7 +225,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView resultsGridView;
         private System.Windows.Forms.Button goBtn;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button clearBtn;
         private System.Windows.Forms.Button defaultBtn;
         private System.Windows.Forms.Label resultsLbl;
     }

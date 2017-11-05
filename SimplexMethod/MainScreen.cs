@@ -284,5 +284,16 @@ namespace SimplexMethod
             fillDefaultsFunction(p.funcVars, p.c, p.isExtrMax);
             Proceed();
         }
+
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+            nOfContraintsTextBox.Clear();
+            nOfVariablesTextBox.Clear();
+            resultsGridView.Columns.Clear();
+            functionGridView.Columns.Clear();
+            constraintsGridView.Columns.Clear();
+            extrComboBox.SelectedIndex = -1;
+            resultsLbl.ResetText();
+        }
     }
 }
