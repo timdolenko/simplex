@@ -2,7 +2,6 @@ C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\bin\Debug\S
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\bin\Debug\SimplexMethod.exe
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\bin\Debug\SimplexMethod.pdb
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.csprojResolveAssemblyReference.cache
-C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.Form1.resources
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.Properties.Resources.resources
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.csproj.GenerateResource.Cache
 C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.exe
@@ -16,3 +15,4 @@ C:\Users\zao.CCD\Desktop\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.csp
 C:\Users\zao.CCD\Desktop\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.Form1.resources
 C:\Users\zao.CCD\Desktop\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.Properties.Resources.resources
 C:\Users\zao.CCD\Desktop\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.csproj.GenerateResource.Cache
+C:\Users\Sispo\Documents\University\MMDO\SimplexMethod\SimplexMethod\obj\Debug\SimplexMethod.MainScreen.resources

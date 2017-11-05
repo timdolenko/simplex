@@ -1,6 +1,6 @@
 ﻿namespace SimplexMethod
 {
-    partial class Form1
+    partial class MainScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.nOfContraintsTextBox = new System.Windows.Forms.TextBox();
             this.nOfVariablesTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -130,6 +131,9 @@
             // 
             // resultsGridView
             // 
+            this.resultsGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.resultsGridView.BackgroundColor = System.Drawing.Color.White;
             this.resultsGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.resultsGridView.Location = new System.Drawing.Point(24, 354);
@@ -168,13 +172,14 @@
             // 
             // resultsLbl
             // 
+            this.resultsLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.resultsLbl.AutoSize = true;
             this.resultsLbl.Location = new System.Drawing.Point(20, 657);
             this.resultsLbl.Name = "resultsLbl";
             this.resultsLbl.Size = new System.Drawing.Size(0, 21);
             this.resultsLbl.TabIndex = 13;
             // 
-            // Form1
+            // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,9 +199,10 @@
             this.Controls.Add(this.nOfVariablesTextBox);
             this.Controls.Add(this.nOfContraintsTextBox);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainScreen";
+            this.Text = "Simplex Method";
             ((System.ComponentModel.ISupportInitialize)(this.constraintsGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.functionGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.resultsGridView)).EndInit();
