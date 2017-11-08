@@ -33,6 +33,38 @@ namespace SimplexMethod
         void initDefaults()
         {
 
+            double[] c91Vars = { 4, 5, 1, 2, 3, 1, 0 };
+            double[] c92Vars = { 2, -10, 3, 1, 7,0,1 };
+            double[] c93Vars = { 2, -2, 15, 2, -1,0,0 };
+
+            double[][] consMatrx9 = new double[3][];
+            consMatrx9[0] = c91Vars;
+            consMatrx9[1] = c92Vars;
+            consMatrx9[2] = c93Vars;
+
+            string[] signs9 = { "=", "=", "=" };
+            double[] freeVars9 = { 35, 12, 28 };
+
+            double[] funcVars9 = { 15, -4, 1, -3, 2,0,0 };
+
+            problems.Add(new Problem(consMatrx9, signs9, freeVars9, funcVars9, 0, true));
+
+            double[] c51Vars = { 4, 5, 1, 2, 3 };
+            double[] c52Vars = { 2, 15, -2, 1, -4 };
+            double[] c53Vars = { 2, -2, 15, 2, -1 };
+
+            double[][] consMatrx5 = new double[3][];
+            consMatrx5[0] = c51Vars;
+            consMatrx5[1] = c52Vars;
+            consMatrx5[2] = c53Vars;
+
+            string[] signs5 = { "<=", ">=", "=" };
+            double[] freeVars5 = { 35, 23, 28 };
+
+            double[] funcVars5 = { 15, -4, 1, -3, 2 };
+
+            problems.Add(new Problem(consMatrx5, signs5, freeVars5, funcVars5, 0, true));
+
             double[] c1Vars = { 2, 3, 1, 2, 3 };
             double[] c2Vars = { 2, 15, 2, 1, -1 };
             double[] c3Vars = { 3, -2, 4, 2, -1 };
@@ -111,22 +143,6 @@ namespace SimplexMethod
 
             problems.Add(new Problem(consMatrx4, signs4, freeVars4, funcVars4, 0, true));
 
-            double[] c51Vars = { 4,5,1,2,3 };
-            double[] c52Vars = { 2,15,-2,1,-4 };
-            double[] c53Vars = { 2,-2,15,2,-1 };
-
-            double[][] consMatrx5 = new double[3][];
-            consMatrx5[0] = c51Vars;
-            consMatrx5[1] = c52Vars;
-            consMatrx5[2] = c53Vars;
-
-            string[] signs5 = { "<=", ">=", "=" };
-            double[] freeVars5 = { 35, 23, 28 };
-
-            double[] funcVars5 = { 15,-4,1,-3,2 };
-
-            problems.Add(new Problem(consMatrx5, signs5, freeVars5, funcVars5, 0, true));
-
             double[] c61Vars = { 1,1,-3,1,-1 };
             double[] c62Vars = { 6,-3,-1,-2,2 };
             double[] c63Vars = { 3,-2,1,2,3 };
@@ -142,6 +158,7 @@ namespace SimplexMethod
             double[] funcVars6 = {2,3,-3,1,0 };
 
             problems.Add(new Problem(consMatrx6, signs6, freeVars6, funcVars6, 0, true));
+
         }
     }
 }

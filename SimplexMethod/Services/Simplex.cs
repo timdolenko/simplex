@@ -185,13 +185,16 @@ namespace SimplexMethod
             {
                 if (array[i] < 0)
                 {
-                    if (index == -1)
+                    if (!isMDone || isMDone && !m[i])
                     {
-                        index = i;
-                    }
-                    else if (Math.Abs(array[i]) > Math.Abs(array[index]))
-                    {
-                        index = i;
+                        if (index == -1)
+                        {
+                            index = i;
+                        }
+                        else if (Math.Abs(array[i]) > Math.Abs(array[index]))
+                        {
+                            index = i;
+                        }
                     }
 
                 }
