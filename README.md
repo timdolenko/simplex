@@ -1,4 +1,4 @@
-# SimplexMethod
-Linear-programming problems solver based on simplex method.
+# Simplex algorithm
+Linear-programming problem solver based on simplex algorithm.
 
 ![Alt text](/screenshot.png?raw=true "Screenshot")
